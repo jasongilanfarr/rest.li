@@ -13,6 +13,7 @@ When updating the changelog, remember to be very clear about what behavior has c
 and what APIs have changed, if applicable.
 
 ## [Unreleased]
+- Allow disabling of load balancing for a specific host.
 
 ## [29.21.4] - 2021-08-30
 - Expose an API to build a URI without query params. Expose a local attr for passing query params for in-process calls. 
@@ -27,6 +28,7 @@ and what APIs have changed, if applicable.
 - Enable skipping request and response validation via the use of request headers.
 
 ## [29.21.0] - 2021-08-17
+
 - Fixed relative load balancer executor schedule cancellation due to silent runtime exception.
 
 ## [29.20.1] - 2021-08-12
